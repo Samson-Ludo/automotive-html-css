@@ -1,0 +1,91 @@
+body {
+  height: 100vh;
+  background-image: url(https://github.com/florinpop17/10websites-design-to-html-css/blob/master/automotive-car-design/car-bg.jpg?raw=true);
+  color: white;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.logo {
+  font-size: 32px;
+}
+
+nav li a {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: rgb(0, 114, 245);
+}
+
+.highlight-lg {
+  background-color: rgb(5, 110, 230);
+  color: white;
+}
+
+.highlight-lg:hover {
+  background-color: rgb(98, 148, 206);
+  color: white;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+.content {
+  padding: 10px;
+  color: white;
+  margin: auto;
+  margin-left: 300px;
+  margin-bottom: 40px;
+}
+
+.highlight {
+  text-decoration: none;
+  background-color: rgb(5, 110, 230);
+  color: white;
+  background-size: 100px;
+  padding: 10px;
+}
+
+.highlight:hover {
+  background-color: rgb(98, 148, 206);
+}
+
+footer {
+  background-color: black;
+  width: auto;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.content header h1 {
+  color: rgb(0, 114, 245);
+}
